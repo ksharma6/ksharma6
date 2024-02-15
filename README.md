@@ -1,21 +1,24 @@
-![Header](https://github.com/ksharma6/ksharma6/blob/main/github-header-image.png)
+## Hello there <img src="https://github.com/ksharma6/ksharma6/blob/main/wave.gif" width="30px">
 
+My name is Kishen Sharma and I am a Data Scientist in the Bay Area. Thanks for stopping by
 
-![](https://komarev.com/ghpvc/?username=ksharma6)
+### What I'm currently working on 📚
+- Open-Source Development on Sktime
+- Building a disease classifier that uses chest Xrays
 
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kishen-sharma/)
-
-### My Languages
+#### My languages and a few of my favorite technologies 
 
 [![My Skills](https://skillicons.dev/icons?i=py,r,cpp,mysql)](https://skillicons.dev)
 
-### Some of my favorite technologies
 [![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake,docker)](https://skillicons.dev)
 
 
 <p><img src="https://github-readme-stats.vercel.app/api?username=ksharma6&theme=radical&hide_border=false&include_all_commits=false&count_private=false" alt="cxyfreedom" /></p>
 
+Let's Connect
 
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kishen-sharma/)
+![Tutanota](https://img.shields.io/badge/Tutanota-840010?style=for-the-badge&logo=Tutanota&logoColor=white)
 
 
 <!---
