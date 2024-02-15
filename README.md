@@ -18,7 +18,7 @@ My name is Kishen Sharma and I am a Data Scientist in the Bay Area. Thanks for s
 **Let's Connect**
 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kishen-sharma/)
-[<img src="https://img.shields.io/badge/Tutanota-840010?style=for-the-badge&logo=Tutanota&logoColor=white" />](ksharma6@tutanota.com)
+[<img src="https://img.shields.io/badge/Tutanota-840010?style=for-the-badge&logo=Tutanota&logoColor=white" />](mailto:ksharma6@tutanota.com)
 
 
 <!---
