@@ -3,7 +3,7 @@
 My name is Kishen Sharma and I am a Data Scientist in the Bay Area. Thanks for stopping by
 
 ### What I'm currently working on 📚
-- Open-Source Development: Sktime & Marimo (the alternative to Jupyter Notebooks)
+- Open-Source Development: Sktime 
 - Building a disease classifier that identifies patient disease base on 2D chest Xrays
 
 #### My languages and a few of my favorite technologies 
