@@ -7,9 +7,7 @@ Presently I am an Open-Source Developer for the Sktime package.
 
 #### My languages and a few of my favorite technologies 
 
-[![My Skills](https://skillicons.dev/icons?i=py,r,cpp,mysql)](https://skillicons.dev)
-
-[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake,docker)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,cpp)](https://skillicons.dev)[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake)](https://skillicons.dev)
 
 **Let's Connect**
 
