@@ -3,7 +3,7 @@
 My name is Kishen Sharma and I am an aspiring ML Engineer in the Bay Area. Thanks for stopping by :)
 
 ### What I'm currently working on 📚
-Presently I am contributing to the Sktime package in my freet ime while I am not supporting the Department of Biomedical Datascience at Stanford School of Medicine.
+Presently I am contributing to the Sktime package in my free time while I am not supporting the Department of Biomedical Data Science at Stanford School of Medicine.
 
 #### My languages and a few of my favorite technologies 
 
