@@ -1,9 +1,9 @@
 ## Hello there <img src="https://github.com/ksharma6/ksharma6/blob/main/wave.gif" width="30px">
 
-My name is Kishen Sharma and I am an ML Engineer in the Bay Area. Thanks for stopping by
+My name is Kishen Sharma and I am an Open-Source Developer in the Bay Area. Thanks for stopping by :)
 
 ### What I'm currently working on 📚
-Presently I am an Open-Source Developer for the Sktime package.
+Presently I am contributing to the Sktime package in my freet ime while I am not supporting the Department of Biomedical Datascience at Stanford School of Medicine.
 
 #### My languages and a few of my favorite technologies 
 
