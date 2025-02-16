@@ -10,7 +10,8 @@ Sktime where I got to learn the ropes about open-source development as a part of
 
 #### My languages and a few of my favorite technologies 
 
-[![My Skills](https://skillicons.dev/icons?i=py,cpp,html,js)](https://skillicons.dev)[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,cpp,html,js)](https://skillicons.dev)
+[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake)](https://skillicons.dev)
 
 **Let's Connect**
 
