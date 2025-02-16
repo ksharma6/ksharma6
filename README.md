@@ -3,11 +3,14 @@
 My name is Kishen Sharma and I am an aspiring ML Engineer in the Bay Area. Thanks for stopping by :)
 
 ### What I'm currently working on 📚
-Presently I am contributing to the Sktime package in my free time while I am not supporting the Department of Biomedical Data Science at Stanford School of Medicine.
+LLM's: Namely learning about and implementing Agent AI's
+
+### Previously I have worked on 
+Sktime where I got to learn the ropes about open-source development as a part of their mentorship program and build an in-house splitter for timeseries regression and classification tasks
 
 #### My languages and a few of my favorite technologies 
 
-[![My Skills](https://skillicons.dev/icons?i=py,cpp)](https://skillicons.dev)[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,cpp,html,js)](https://skillicons.dev)[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake)](https://skillicons.dev)
 
 **Let's Connect**
 
