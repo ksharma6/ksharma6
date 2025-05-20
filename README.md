@@ -3,7 +3,7 @@
 My name is Kishen Sharma and I am an aspiring ML Engineer in the Bay Area. Thanks for stopping by :)
 
 ### What I'm currently working on 📚
-LLM's: Namely learning about and implementing Agent AI's
+Presently I am working on a project called Inbox0. It will become a suite of AI agents that will assist users in managing their Gmail inboxes and consolidate their daily tasks.
 
 ### Previously I have worked on 
 Sktime where I got to learn the ropes about open-source development as a part of their mentorship program and build an in-house splitter for timeseries regression and classification tasks
@@ -18,7 +18,7 @@ Sktime where I got to learn the ropes about open-source development as a part of
 **Let's Connect**
 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kishen-sharma/)
-[<img src="https://img.shields.io/badge/Tutanota-840010?style=for-the-badge&logo=Tutanota&logoColor=white" />](mailto:cornhusk_outsmart794@simplelogin.com)
+[<img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff" />](mailto:cornhusk_outsmart794@simplelogin.com)
 
 
 <!---
