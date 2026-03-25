@@ -1,24 +1,32 @@
-## Hello there <img src="https://github.com/ksharma6/ksharma6/blob/main/wave.gif" width="30px">
+## Hi, I’m Kishen — ML Engineer focused on AI Agents & Applied LLM Systems <img src="https://github.com/ksharma6/ksharma6/blob/main/wave.gif" width="30px">
 
-My name is Kishen Sharma and I am an aspiring ML Engineer in the Bay Area. Thanks for stopping by :)
+I build production-ready AI systems that combine:
+- LLM reasoning + tool use
+- Structured outputs + reliability constraints
+- Human-in-the-loop workflows
 
-### What I'm currently working on 📚
-Presently I am working on a project called Inbox0. It will become a suite of AI agents that will assist users in managing their Gmail inboxes and consolidate their daily tasks.
+### 🔥 Featured Project
+**Inbox0** – AI email agent that triages, summarizes, and drafts replies using LangGraph  
+→ [GitHub Link](https://github.com/ksharma6/Inbox0)
 
-### Previously I have worked on 
-Sktime where I got to learn the ropes about open-source development as a part of their mentorship program and build an in-house splitter for timeseries regression and classification tasks
+- Tool-calling agent with deterministic execution (Pydantic schemas)
+- Stateful workflows with checkpointing + retries
+- Gmail + Slack integrations
+- Human-in-the-loop approval system
 
-#### My languages and a few of my favorite technologies 
+### 🧠 What I care about
+- Agent reliability & evals
+- Reducing hallucinations in production systems
+- Bridging ML systems with real user workflows
 
-[![My Skills](https://skillicons.dev/icons?i=py,cpp,html,js)](https://skillicons.dev)
+### 🛠 Tech
+Python, LangGraph, OpenAI APIs, Flask, AWS, SQL
 
-#### and a few of my favorite technologies for good measure ;)
-[![My packages](https://skillicons.dev/icons?i=linux,pytorch,opencv,github,aws,cmake)](https://skillicons.dev)
+### 📫 Reach me
 
-**Let's Connect**
-
+[<img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff" />](mailto:ksharma06@pm.me)
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kishen-sharma/)
-[<img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff" />](mailto:cornhusk_outsmart794@simplelogin.com)
+
 
 
 <!---
