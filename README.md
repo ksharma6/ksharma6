@@ -1,4 +1,4 @@
-# Hi, I'm Kishen — ML Engineer
+# Hi, I'm Kishen — ML Engineer  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="wave">
 **Applied AI · Agent Systems · LLM Reliability**
 
 I build production-ready AI systems that combine LLM reasoning, structured tool-calling, and human-in-the-loop workflows. Based in Daly City, CA.
