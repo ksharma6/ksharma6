@@ -1,20 +1,22 @@
 # Hi, I'm Kishen — ML Engineer  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="wave">
+
 **Applied AI · Agent Systems · LLM Reliability**
 
-I build production-ready AI systems that combine LLM reasoning, structured tool-calling, and human-in-the-loop workflows. Based in Daly City, CA.
+I build production-ready AI systems that combine LLM reasoning, structured tool-calling, and human-in-the-loop workflows, with evaluation built in from the start. Based in Daly City, CA.
 
 ---
 
 ## 🔥 Featured Project
 
 ### [Inbox0](https://github.com/ksharma6/Inbox0)
-AI email agent that triages, summarizes, and drafts replies using LangGraph.
+An open-source AI email agent that triages inbound threads, drafts replies in the user's voice, and routes every send through human review, built on the principle that each component must beat a measured baseline before it ships.
 
-- LangGraph agents with structured tool-calling (Pydantic schemas) and deterministic execution
-- Tiered RAG retrieval: **Redis** (hot storage for active threads) + **SQLite** (cold storage for archived context)
-- Stateful workflows with checkpointing, retry logic, and execution logging
-- Gmail + Slack Bolt integrations with interactive modals
-- Human-in-the-loop approval system
+- LangGraph agents with structured tool-calling (Pydantic-validated schemas), state checkpointing, retry logic, and deterministic, replayable execution
+- Pipeline evaluation harness anchored on three implementation-independent gold metrics (send rate, latency, cost per draft) that score user outcomes, not component internals
+- LLM-as-judge pairwise comparison that gates regressions before they ship, fed by implicit signal from Slack actions and Gmail folder state
+- Golden dataset for system baselining, with production failure modes folded back in as labeled cases
+- Designing tiered semantic retrieval (Redis hot cache + SQLite-vec cold store) in response to diagnosed exponential token growth on deep quoted-reply threads
+- Gmail + Slack Bolt integrations with human-in-the-loop approval on every send
 - Productionized as a Flask service with modular routes and environment-scoped secrets
 
 ---
@@ -24,39 +26,40 @@ AI email agent that triages, summarizes, and drafts replies using LangGraph.
 - Treat LLMs as **unreliable components** → enforce structure, validation, and fallback paths
 - Prefer **deterministic execution layers** (schemas, tool constraints) over prompt-only control
 - Design for **observability**: logging, replayability, execution tracing, and failure inspection
-- Optimize for iteration speed via **eval loops** and real-user feedback
+- Measure before building: a feature ships when it **beats a baseline**, not when it feels done
 
 ---
 
 ## 💼 Experience
 
 **ML Engineer (Applied AI) · Inbox0** *(May 2025 – Present)*
-- Architected production LangGraph agents with schema-validated tool-calling and HITL approval
-- Built tiered RAG system reducing context-lookup latency while keeping full email history queryable
-- Implemented evaluation infrastructure: execution logging, retry logic, and state checkpointing
+- Built and operate a production LangGraph agent with schema-validated tool-calling, state checkpointing, retry logic, and human-in-the-loop approval on every send
+- Architected an evaluation harness on three implementation-independent gold metrics that score user outcomes, with LLM-as-judge pairwise comparison and regression gating
+- Diagnosed exponential prompt-token growth with thread depth (739 to 56K tokens from depth 5 to 40); designing tiered semantic retrieval in response
+- Curating a golden dataset (sanitized inbox, synthetic edge cases, extending to the Enron corpus) to prove each feature delivers measurable end-to-end improvement
 
 **Open-source Developer · [sktime](https://www.sktime.net)** *(Mar – Oct 2024)*
 - Decoupled GridSearch from scikit-learn, reducing user-reported issues by 20%
-- Shipped `MultiplexerRegressor` AutoML component — cuts model-selection time by 30%
+- Shipped a `MultiplexerRegressor` AutoML component that cuts model-selection time by 30%
 
 **AI Training Engineer (RLHF) · Self-Employed** *(Feb – Nov 2024)*
 - **OpenAI (ChatGPT)** — evaluated reasoning, tool use, and prompt adherence across multi-turn conversations; wrote Python tests to verify generated code matched user intent
 - **Google (Gemini)** — rewrote chain-of-thought traces to compress agentic turn counts; validated tool-calling schemas for Maps, Search, Calendar, and Purchasing
-- **Meta (Llama)** — scored output quality, penalized hallucinations, and re-evaluated downstream responses after failure-point regeneration
+- **Meta (Llama)** — scored output quality on computer science tasks, penalized hallucinations and factual errors, and produced preference data from failure-point regeneration
 
 **Data Scientist · Acorn Analytics** *(Aug 2020 – Mar 2021)*
-- Built Python/MySQL AWS ETL pipelines; ran 10K Monte Carlo simulations for headcount planning
+- Developed lightweight Python/MySQL data pipelines on AWS; ran 10K Monte Carlo simulations for headcount planning
 - Collaborated on a logistic regression fraud-detection model → $250K cost savings
 
 **Staff Consultant · Celerity Consulting Group** *(Mar 2016 – May 2018)*
-- Led team of 5 analysts; built Tableau dashboards via MySQL on SharePoint ETL pipelines
+- Led a team of 5 analysts; built Tableau dashboards via MySQL on SharePoint ETL pipelines
 
 ---
 
 ## 🎓 Education
 
 **Stanford University** *(2022 – 2024)*
-CS229 (Machine Learning) · CS224N (NLP) · CS231N (Computer Vision) · CS336 (LLMs) · CS236 (GANs)
+CS229 (Machine Learning) · CS224N (NLP) · CS231N (Computer Vision) · CS336 (Language Modeling from Scratch) · CS236 (Deep Generative Models)
 
 **UC San Diego** *(B.A. Cognitive Science, 2015)*
 
@@ -64,15 +67,15 @@ CS229 (Machine Learning) · CS224N (NLP) · CS231N (Computer Vision) · CS336 (L
 
 ## 🚧 Current focus
 
-- Building more reliable agent workflows — retry strategies and state recovery
-- Exploring lightweight models to reduce cost in agent pipelines
-- Improving evaluation frameworks for agent behavior
+- Shipping Inbox0 v1.0: evaluation harness, tiered retrieval, and a triage classifier, each measured against a documented baseline
+- Exploring lightweight models to cut cost in agent pipelines
+- Sharpening evaluation frameworks for agent behavior
 
 ---
 
 ## 🛠 Tech
 
-`Python` `LangGraph` `Pydantic AI` `PyTorch` `OpenAI APIs` `RAG` `RLHF` `Flask` `AWS` `GCP` `SQL` `Redis` `Linux`
+`Python` `LangGraph` `Pydantic` `PyTorch` `OpenAI APIs` `RAG` `RLHF` `Flask` `AWS` `GCP` `SQL` `Redis` `SQLite-vec` `Linux`
 
 ---
 
