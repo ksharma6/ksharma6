@@ -1,6 +1,6 @@
 # Hi, I'm Kishen — Applied AI Engineer <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="wave">
 
-**Agent Systems · LLM Evaluation · Reliable AI**
+**LLM Evaluation · RAG · Agentic Workflows**
 
 I build production-ready AI systems that combine LLM reasoning, structured tool-calling, and human-in-the-loop workflows—with evaluation built in from the start. Based in Daly City, California.
 
