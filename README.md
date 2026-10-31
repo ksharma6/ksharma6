@@ -37,44 +37,50 @@ An open-source AI email agent that triages inbound threads, drafts replies in th
 ### Applied AI Engineer · [Inbox0](https://github.com/ksharma6/Inbox0)
 *May 2025 – Present*
 
-- Built and operate an open-source LangGraph agent that grounds replies in a user's email history while gating every send through human review
-- Architecting an evaluation harness with outcome-based metrics, LLM-as-judge comparison, and regression gating
-- Diagnosed prompt growth from 739 to 56K tokens as thread depth increased from 5 to 40, overturning an initial linear-growth hypothesis
-- Building a labeled benchmark and evaluating recall-first triage approaches across heuristic, zero-shot, and fine-tuned baselines
+- Built and operate an open-source LangGraph agent that triages Gmail and drafts replies using schema-validated tool calls, checkpointed state, and retriable execution; every outbound message requires human approval.
+- Architected a pipeline evaluation harness: defined three model-agnostic metrics tied to user outcomes, implementing LLM-as-judge pairwise model comparisons, and automated regression gates that block releases performing below baseline.
+- Built and maintain a versioned benchmark from sanitized inbox data, synthetic edge cases, the Enron email corpus, and production failures; used it to compare heuristic, zero-shot, and fine-tuned triage models and deploy recall-first routing that avoids unnecessary LLM inference.
+- Designing an adaptive hybrid retrieval system to ground generated drafts in relevant context from a user’s email history; a schema-validated planner routes queries across lexical, vector, and metadata search, with rank fusion, reranking, evidence-coverage checks, and bounded query expansion
 
 ### Generative AI Evaluation Consultant
 *February 2024 – November 2024*
 
-- **OpenAI (ChatGPT):** Evaluated reasoning, tool usage, and prompt adherence across multi-turn conversations; wrote Python tests to verify generated code compiled and matched user intent
-- **Google (Gemini):** Assessed tool-calling decisions and reasoning traces for Maps, Search, Calendar, and Purchasing; validated production schemas through code verification
-- **Meta (Llama):** Produced RLHF preference data for machine-learning tasks by scoring output quality and regenerating responses at the point of failure
+Evaluated frontier generative AI models from OpenAI, Google, and Meta, focusing on reasoning, tool use, code generation, and instruction following. Diagnosed failure modes and produced correction and preference signals to improve model behavior.
+
+- OpenAI (ChatGPT): designed evaluation criteria for multi-turn reasoning, tool usage, and prompt adherence; wrote Python unit tests to verify generated code compiled and matched intent; diagnosed and corrected failure modes where responses diverged from prior context.
+- Google (Gemini): authored chain-of-thought rewrites to compress agentic turn counts, evaluated tool-calling decisions against production schemas (Maps, Search, Calendar, Purchasing), and produced trace-level correction signal feeding preference data.
+- Meta (Llama): scored output quality on computer-science tasks, penalizing hallucinations and factual errors; generated preference data at the point of failure, modeling the annotator judgment that downstream reward models learn from.
 
 ### Open-source Developer · [sktime](https://www.sktime.net)
 *March 2024 – October 2024*
 
-- Decoupled GridSearch from scikit-learn, reducing user-reported issues by 20% and improving reproducibility
-- Shipped an AutoML `MultiplexerRegressor` that reduced model-selection time by 30%
+- Contributed to a 1M+ user/month open-source ML framework: decoupled GridSearch from scikit-learn, reducing user-reported issues by 20% and improving reproducibility across regression and classification workflows.
+- Shipped an AutoML MultiplexerRegressor that auto-selects among state-of-the-art time-series regressors with GridSearch hyperparameter tuning, cutting model-selection time by 30% and simplifying downstream integration.
 
 ### Data Scientist · Acorn Analytics
 *August 2020 – March 2021*
 
-- Developed lightweight Python and MySQL data pipelines on AWS for encryption and feature extraction
-- Ran 10K Monte Carlo trials for headcount planning and delivered analysis that generated $140K in new business opportunities
+- Built lightweight data pipelines on AWS (Python, MySQL) for data encryption and feature extraction; delivered analysis to C-suite that generated $140K in new business opportunities.
+- Ran 10K Monte Carlo trials in a Markov chain framework to generate hiring ranges and risk bands, briefed B2B SaaS executives and standardized a repeatable template later reused for Q1 and Q2 headcount planning.
 
 ### Staff Consultant · Celerity Consulting Group
 *March 2016 – May 2018*
 
-- Directed a team of five analysts, reduced burn rate by 18%, and built Tableau reporting on MySQL and SharePoint ETL pipelines
-- Implemented a logistic-regression fraud-detection model that produced $250K in cost savings for a Fortune 500 client
+- Directed a team of five analysts, reducing burn rate 18%; built weekly Tableau reporting via MySQL queries on SharePoint-hosted data (ETL, data modeling, scheduled refresh).
+- Implemented a logistic regression fraud-detection model resulting in $250K cost savings for Fortune 500 client; engineered domain-informed features that increased model lift and recall.
 
 ---
 
 ## 🎓 Education
 
 **Stanford University**  
-*Graduate coursework, January 2022 – January 2024*
+*Non-Degree | Audited Graduate Coursework - January 2022 – January 2024*
 
-CS224N (Natural Language Processing) · CS336 (Language Modeling from Scratch) · CS236 (Deep Generative Models) · CS229 (Machine Learning) · CS231N (Computer Vision)
+• CS229 – Machine Learning
+• CS224N – NLP with Deep Learning
+• CS231N – Computer Vision
+• CS336 – Language Modeling from Scratch
+• CS236 – Deep Generative Models
 
 **University of California, San Diego**  
 *B.A. Cognitive Science, 2015*
