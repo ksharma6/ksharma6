@@ -10,25 +10,11 @@ I build production-ready AI systems that combine LLM reasoning, structured tool-
 
 ### [Inbox0](https://github.com/ksharma6/Inbox0)
 
-An open-source AI email agent that triages inbound threads, drafts replies in the user's voice, and routes every send through human review. Each change must beat a measured baseline before it ships.
+An open-source AI email agent that triages Gmail and drafts replies in the user's voice, with human approval required before every send.
 
-- Built and operate a LangGraph agent with schema-validated tool-calling, state checkpointing, retry logic, and deterministic replay
-- Architecting an evaluation harness around three implementation-independent metrics: send rate, latency, and cost per draft
-- Using LLM-as-judge pairwise comparisons and regression gates to prevent changes that fail to beat baseline
-- Building a labeled benchmark from sanitized inbox data, synthetic edge cases, Enron examples, and production failures
-- Designing tiered semantic retrieval with a Redis working-set cache and SQLite-vec persistent store after diagnosing exponential prompt-token growth on deep email threads
-- Evaluating heuristic, zero-shot, and fine-tuned DistilBERT baselines for a recall-first triage classifier
-- Integrating Gmail and Slack Bolt with human-in-the-loop approval on every send
-
----
-
-## 🧩 How I build AI systems
-
-- Treat LLMs as **unreliable components** and enforce structure, validation, and fallback paths
-- Prefer **schema-constrained tools and deterministic execution** over prompt-only control
-- Design for **observability** through logging, replayability, tracing, and failure inspection
-- Fold production failures back into labeled evaluation cases
-- Measure before building: a feature ships when it **beats a baseline**, not when it merely feels complete
+- **Agentic workflows:** Built with LangGraph, schema-validated tool calls, persisted workflow state, and bounded retries.
+- **LLM evaluation:** Architected an evaluation harness around send rate, latency, and cost per draft; developing pairwise LLM-as-judge comparisons and regression gates to measure changes against a baseline.
+- **Retrieval-Augmented Generation (RAG):** Designing hybrid retrieval across lexical, vector, and metadata search to ground drafts in relevant email history, with rank fusion and reranking.
 
 ---
 
@@ -99,6 +85,6 @@ Evaluated frontier generative AI models from OpenAI, Google, and Meta, focusing 
 
 ## 🤝 Open to opportunities
 
-I'm interested in ML and AI engineering roles focused on agent systems, LLM applications, evaluation, and reliability.
+I'm interested in ML and AI engineering roles focused on agent systems, LLM applications, evaluation, RAG and reliability.
 
 📫 [ksharma06@pm.me](mailto:ksharma06@pm.me) · [LinkedIn](https://linkedin.com/in/kishen-sharma/) · [GitHub](https://github.com/ksharma6)
