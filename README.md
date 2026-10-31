@@ -76,29 +76,25 @@ Evaluated frontier generative AI models from OpenAI, Google, and Meta, focusing 
 **Stanford University**  
 *Non-Degree | Audited Graduate Coursework - January 2022 – January 2024*
 
-• CS229 – Machine Learning
-• CS224N – NLP with Deep Learning
-• CS231N – Computer Vision
-• CS336 – Language Modeling from Scratch
-• CS236 – Deep Generative Models
+- CS229 – Machine Learning
+- CS224N – NLP with Deep Learning
+- CS231N – Computer Vision
+- CS336 – Language Modeling from Scratch
+- CS236 – Deep Generative Models
 
 **University of California, San Diego**  
 *B.A. Cognitive Science, 2015*
 
 ---
 
-## 🚧 Current focus
+## 🛠 Technology & Focus
 
-- Shipping Inbox0 v1.0 with an evaluation harness, tiered retrieval, and a triage classifier—each measured against a documented baseline
-- Exploring lightweight models that reduce cost and latency in agent pipelines
-- Building practical evaluation frameworks for agent behavior and tool use
+- **LLM Evaluation (Evals):** LLM-as-judge, pairwise comparisons, evaluation datasets, failure analysis, regression testing
+- **Agentic Workflows & Agent Orchestration:** LangGraph, structured tool calling, Pydantic, human-in-the-loop approval, state management, retries
+- **Retrieval-Augmented Generation (RAG):** hybrid search, semantic retrieval, metadata filtering, rank fusion, reranking, Redis, sqlite-vec
 
----
-
-## 🛠 Technology
-
-`Python` `LangGraph` `Pydantic` `PyTorch` `scikit-learn` `Hugging Face` `OpenAI APIs` `RAG` `RLHF` `Flask` `REST APIs` `Redis` `SQLite-vec` `AWS` `GCP` `SQL` `CI/CD` `Linux`
-
+**Languages & ML:** Python · SQL · PyTorch · scikit-learn · Hugging Face  
+**APIs & Infrastructure:** OpenAI API · REST APIs · Flask · AWS · GCP · CI/CD · Linux
 ---
 
 ## 🤝 Open to opportunities
